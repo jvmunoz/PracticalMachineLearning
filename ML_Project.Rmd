@@ -32,9 +32,13 @@ The goal of the project is to predict the manner in which they did the exercise.
 
 Libraries and Seed
 ```{r}
+library(knitr)
+opts_chunk$set(echo = TRUE, results = 'hold')
+
 library(caret)
 library(rattle)
 library(randomForest)
+
 set.seed(727)
 ```
 
